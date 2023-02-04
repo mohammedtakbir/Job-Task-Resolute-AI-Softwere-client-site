@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
 import AddStudents from "../Pages/AddStudents";
-import Login from "../Pages/Login";
+import Dashboard from "../Pages/Dashboard";
 import ManageStudents from "../Pages/ManageStudents";
 
 export const router = createBrowserRouter([
@@ -10,8 +10,8 @@ export const router = createBrowserRouter([
         element: <Main />,
         children: [
             {
-                index: true,
-                element: <Login />
+                path: '/dashboard',
+                element: <Dashboard />
             },
             {
                 path: '/add-students',
