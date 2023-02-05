@@ -14,7 +14,7 @@ const Dashboard = () => {
     }
 
     return (
-        <section className='flex gap-[5%]'>
+        <section className='flex gap-[5%] pt-7'>
             <div className='w-[15%] flex flex-col'>
                 <NavLink
                     style={({ isActive }) => {
